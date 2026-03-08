@@ -1,0 +1,38 @@
+# --- Identity ---
+name: "anthropic-claude-service"
+display_name: "Anthropic Claude Service"
+description: "Shared service definition for the Anthropic Claude API"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/anthropic-claude-service"
+
+# --- Discovery (Hub) ---
+category: "shared"
+tags:
+  - "llm"
+  - "anthropic"
+  - "claude"
+
+# --- Security & Access ---
+requires:
+  services: []
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 0
+  prompts: 0
+  workflows: 0
+  services: 1
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
